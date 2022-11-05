@@ -37,6 +37,12 @@ body {
   padding-bottom: 15px;
   color: black;
   padding-top: 40px;
+  border: none;
+  outline: none;
+}
+.buttons:disabled {
+  background-color: skyblue;
+  cursor: not-allowed;
 }
 .buttons {
   width: 130px;
@@ -83,4 +89,25 @@ body {
   justify-content: right;
   margin-right: 5%;
   gap: 2%;
+}
+input {
+  width: 50%;
+  /* border: none; */
+  background: transparent;
+  font-size: x-large;
+  padding-top: 17px;
+  padding-left: 45%;
+}
+@media (max-width: 600px) {
+  body {
+    height: 600px;
+  }
+  .clockpage {
+    justify-content: center;
+    padding-top: 15px;
+  }
+  .footer-page {
+    /* justify-content: center; */
+    margin-left: 28%;
+  }
 }
