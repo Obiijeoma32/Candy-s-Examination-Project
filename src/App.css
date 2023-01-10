@@ -39,6 +39,7 @@ body {
   padding-top: 40px;
   border: none;
   outline: none;
+  margin-right: 6rem;
 }
 .buttons:disabled {
   background-color: skyblue;
@@ -64,9 +65,10 @@ body {
 }
 .page-header {
   font-family: "Roboto", sans-serif;
-  font-size: x-large;
-  padding-top: 50px;
+  font-size: xx-large;
+  padding-top: 2rem;
   color: cadetblue;
+  margin-right: 6rem;
 }
 .footer-page {
   display: flex;
